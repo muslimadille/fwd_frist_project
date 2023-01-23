@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".screens.loginScreen.LoginFragment">
+<data>
+
+</data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_screen"
+            android:textSize="18sp"
+            android:layout_marginBottom="50dp"
+            />
+        <EditText
+            android:id="@+id/email_editTex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="@string/e_mail"
+            android:inputType="text"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            tools:ignore="TextFields" />
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_password"
+            tools:ignore="TextFields" />
+        <Button
+            android:id="@+id/Login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorAccent"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorAccent"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/create_new_account"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</layout>

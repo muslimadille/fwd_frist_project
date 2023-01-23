@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".screens.onboardingScreen.OnboardingFragment">
+   <data>
+
+   </data>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/welcome_to_app"
+          android:textSize="24sp"
+          android:textColor="@color/colorAccent"
+          android:layout_marginBottom="10dp"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/shoe_store"
+          android:textSize="24sp"
+          android:textColor="@android:color/darker_gray"
+          android:layout_marginBottom="10dp"
+
+          />
+      <Button
+          android:id="@+id/start_btn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="50dp"
+          android:layout_gravity="center_horizontal"
+          android:backgroundTint="@color/colorAccent"
+          android:paddingStart="30dp"
+          android:paddingEnd="30dp"
+          android:text="@string/start"
+          android:textColor="@android:color/white"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+
+
+   </LinearLayout>
+
+</layout>
